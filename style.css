@@ -33,7 +33,7 @@ header {
 
 .machines-icons {
     display: grid;
-    margin-top: 170px;
+    margin-top: 0px;
     width: 100%;
     background-color: teal;
     opacity: 0.8;
@@ -126,6 +126,7 @@ li {
     border-radius: 3px;
     transition-property: opacity;
     transition-duration: 1s;
+    
 }
 
 .mid1 {
@@ -142,7 +143,7 @@ li {
 }
 
 .light:hover, .mid1:hover {
-    opacity:1;
+    opacity: 1;
 }
 
 .maxrex-mininvest {
@@ -178,6 +179,7 @@ li {
     grid-area: 2 / 2 / span 1 / 3;
     padding-left: 10%;
     font-size: 1.4rem;
+    z-index: 1;
 }
 
 #feellight {
@@ -274,7 +276,10 @@ li {
     position: absolute;
     height: 30px;
     box-shadow: 4px 1px 5px black;
+   
 }
+
+
 
 #spintro1 {
     margin-top: 21rem;
@@ -283,7 +288,7 @@ li {
 }
 
 #spintro2 {
-    margin-top: 42.5rem;
+    margin-top: 60.5rem;
     margin-left: 100px;
     margin-right: 100px;
     width: 90%;
@@ -291,14 +296,14 @@ li {
 }
 
 #spintro3 {
-    margin-top: 64rem;
+    margin-top: 104rem;
     margin-left: 10px;
     width: 90%;
 }
 
 #spintro4 {
-    margin-top: 89rem;
-    margin-left: 10px;
+    margin-top: 150rem;
+    margin-left: 80px;
     width: 90%;
 }
 
@@ -801,9 +806,7 @@ footer {
         margin-top: 100px;
     }
 
-    .carousel-item img {
-        height: 350px;
-    }
+   
 
     .container-index {
         margin-top: 480px;
@@ -818,6 +821,19 @@ footer {
         display: block;
         flex-direction: column;
         font-size: 12px;
+    }
+
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item img {
+        width: 100%;
+        height: 100% !important;
+        object-fit: cover;
+    }
+    
+    #carouselpros {
+        margin-top: -50px;
     }
         
 }
@@ -890,8 +906,8 @@ body {
     
 }
    
-  .carousel-inner {
-      
+  .machines-icons {
+    
   }
  
 

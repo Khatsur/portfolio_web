@@ -368,6 +368,10 @@ h1 {
     box-shadow: 4px 1px 5px black;
 }
 
+#g-titan, #rs-1, #rs800 {
+    background-color: white;
+}
+
 #printvideo, #placevideo, #rewlowvideo{
     border: black;
 }
